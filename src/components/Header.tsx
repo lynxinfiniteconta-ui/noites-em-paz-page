@@ -41,7 +41,7 @@ const Header = () => {
           </a>
           <Button variant="cta" size="sm" className="ml-4">
             <Star className="w-4 h-4" />
-            Baixar Ebook
+            Quero meu Ebook agora
           </Button>
         </nav>
       </div>
