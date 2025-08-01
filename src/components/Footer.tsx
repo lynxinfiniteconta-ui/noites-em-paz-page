@@ -79,7 +79,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-8 text-center">
           <p className="text-gray-400 font-montserrat font-light">
-            © 2024 Meu Filho Não Dorme. Todos os direitos reservados.
+            © 2025 Hydr4 Lab. Todos os direitos reservados.
           </p>
           <p className="text-gray-500 font-montserrat font-light text-sm mt-2">
             Este produto não substitui orientações médicas profissionais.
