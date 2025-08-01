@@ -66,14 +66,6 @@ const LearningSection = () => {
             ))}
           </div>
           
-          <div className="mt-12 text-center">
-            <div className="inline-flex items-center gap-3 px-6 py-3 bg-mint-green rounded-full">
-              <Heart className="w-5 h-5 text-foreground" />
-              <span className="font-montserrat font-medium text-foreground">
-                + Bônus: Planilha de acompanhamento personalizada
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
