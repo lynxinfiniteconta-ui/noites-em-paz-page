@@ -41,7 +41,7 @@ const Header = () => {
           </a>
           <Button variant="cta" size="sm" className="ml-4">
             <Star className="w-4 h-4" />
-            Quero meu Ebook agora
+            Quero Meu Ebook Agora
           </Button>
         </nav>
       </div>

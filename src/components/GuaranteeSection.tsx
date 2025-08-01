@@ -59,7 +59,7 @@ const GuaranteeSection = () => {
           
           <Button variant="cta" size="xl" className="group">
             <Shield className="w-5 h-5 group-hover:animate-pulse" />
-            Quero meu Ebook agora
+            Quero Meu Ebook Agora
           </Button>
         </div>
       </div>
