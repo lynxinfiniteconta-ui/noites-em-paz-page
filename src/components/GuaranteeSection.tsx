@@ -59,7 +59,7 @@ const GuaranteeSection = () => {
           
           <Button variant="cta" size="xl" className="group">
             <Shield className="w-5 h-5 group-hover:animate-pulse" />
-            Baixar com Garantia Total
+            COMPRAR
           </Button>
         </div>
       </div>
