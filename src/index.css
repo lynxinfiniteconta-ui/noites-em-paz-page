@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Dreamy Baby Sleep Colors */
+    --background: 350 40% 98%;
+    --foreground: 230 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 230 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 230 15% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Soft Baby Blue Primary */
+    --primary: 220 60% 75%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Gentle Lilac Secondary */
+    --secondary: 280 45% 88%;
+    --secondary-foreground: 230 15% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Soft Muted Tones */
+    --muted: 220 25% 95%;
+    --muted-foreground: 230 10% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Mint Green Accent */
+    --accent: 160 50% 85%;
+    --accent-foreground: 230 15% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 25% 90%;
+    --input: 220 25% 95%;
+    --ring: 220 60% 75%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Custom Baby Sleep Theme Colors */
+    --baby-blue: 220 60% 75%;
+    --soft-lilac: 280 45% 88%;
+    --gentle-rose: 350 50% 85%;
+    --warm-beige: 40 30% 92%;
+    --mint-green: 160 50% 85%;
+    --night-sky: 230 35% 15%;
+    --moon-glow: 50 100% 95%;
+    
+    /* Gradients */
+    --gradient-dreamy: linear-gradient(135deg, hsl(var(--baby-blue)), hsl(var(--soft-lilac)));
+    --gradient-night: linear-gradient(135deg, hsl(var(--night-sky)), hsl(220 25% 25%));
+    --gradient-soft: linear-gradient(135deg, hsl(var(--moon-glow)), hsl(var(--warm-beige)));
+    
+    /* Shadows */
+    --shadow-dreamy: 0 10px 25px -10px hsl(var(--baby-blue) / 0.3);
+    --shadow-soft: 0 4px 20px -4px hsl(var(--soft-lilac) / 0.4);
+    --shadow-glow: 0 0 30px hsl(var(--moon-glow) / 0.6);
+    
+    /* Animations */
+    --transition-dreamy: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
