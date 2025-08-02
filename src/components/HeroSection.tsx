@@ -26,10 +26,12 @@ const HeroSection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start">
-            <Button variant="cta" size="xl" className="group">
-              <Download className="w-5 h-5 group-hover:animate-bounce" />
-              Quero meu Ebook agora
-            </Button>
+            <a href="https://pay.cakto.com.br/332aogo_507140" target="_blank" rel="noopener noreferrer">
+              <Button variant="cta" size="xl" className="group">
+                <Download className="w-5 h-5 group-hover:animate-bounce" />
+                Quero meu Ebook agora
+              </Button>
+            </a>
             
             <div className="flex items-center gap-2 text-muted-foreground">
               <Heart className="w-5 h-5 text-gentle-rose" />
