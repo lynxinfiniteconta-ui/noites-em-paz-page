@@ -5,9 +5,9 @@ import heroImage from "@/assets/hero-baby-sleep.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-soft px-4 pt-16 sm:pt-20">
-      <div className="container mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-        <div className="text-center lg:text-left space-y-6 lg:space-y-8 animate-fade-in-up">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-soft px-4 pt-20">
+      <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
+        <div className="text-center lg:text-left space-y-8 animate-fade-in-up">
           <div className="flex items-center justify-center lg:justify-start gap-2 mb-4">
             <Badge className="bg-gentle-rose text-foreground px-4 py-2 rounded-full font-montserrat">
               <Star className="w-4 h-4 mr-2" />
@@ -15,12 +15,12 @@ const HeroSection = () => {
             </Badge>
           </div>
           
-          <h1 className="font-playfair text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
             Noites Tranquilas
             <span className="block text-baby-blue">Começam Aqui</span>
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-montserrat font-light leading-relaxed max-w-2xl">
+          <p className="text-lg md:text-xl text-muted-foreground font-montserrat font-light leading-relaxed max-w-2xl">
             Descubra técnicas gentis e comprovadas para criar uma rotina de sono que 
             funciona para seu bebê e toda a família. Finalmente, noites de descanso verdadeiro.
           </p>
@@ -39,20 +39,20 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-6 pt-4">
+          <div className="flex items-center justify-center lg:justify-start gap-6 pt-4">
             <div className="text-center">
-              <div className="font-playfair text-xl sm:text-2xl font-bold text-baby-blue">97%</div>
-              <div className="text-xs sm:text-sm text-muted-foreground font-montserrat">Taxa de sucesso</div>
+              <div className="font-playfair text-2xl font-bold text-baby-blue">97%</div>
+              <div className="text-sm text-muted-foreground font-montserrat">Taxa de sucesso</div>
             </div>
-            <div className="w-px h-8 sm:h-10 bg-border hidden sm:block"></div>
+            <div className="w-px h-10 bg-border"></div>
             <div className="text-center">
-              <div className="font-playfair text-xl sm:text-2xl font-bold text-soft-lilac">7 dias</div>
-              <div className="text-xs sm:text-sm text-muted-foreground font-montserrat">Para ver resultados</div>
+              <div className="font-playfair text-2xl font-bold text-soft-lilac">7 dias</div>
+              <div className="text-sm text-muted-foreground font-montserrat">Para ver resultados</div>
             </div>
-            <div className="w-px h-8 sm:h-10 bg-border hidden sm:block"></div>
+            <div className="w-px h-10 bg-border"></div>
             <div className="text-center">
-              <div className="font-playfair text-xl sm:text-2xl font-bold text-mint-green">100%</div>
-              <div className="text-xs sm:text-sm text-muted-foreground font-montserrat">Garantia</div>
+              <div className="font-playfair text-2xl font-bold text-mint-green">100%</div>
+              <div className="text-sm text-muted-foreground font-montserrat">Garantia</div>
             </div>
           </div>
         </div>

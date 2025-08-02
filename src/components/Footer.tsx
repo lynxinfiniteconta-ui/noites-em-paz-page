@@ -2,10 +2,10 @@ import { Moon, Heart, Instagram, Facebook, MessageCircle } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-night-sky text-white py-12 sm:py-16 px-4">
+    <footer className="bg-night-sky text-white py-16 px-4">
       <div className="container mx-auto">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8 sm:mb-12">
-          <div className="sm:col-span-2 lg:col-span-2">
+        <div className="grid md:grid-cols-4 gap-8 mb-12">
+          <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gradient-dreamy rounded-full flex items-center justify-center">
                 <Moon className="w-6 h-6 text-white" />
