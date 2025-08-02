@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Moon, Star } from "lucide-react";
 import { useState, useEffect } from "react";
@@ -39,12 +40,12 @@ const Header = () => {
           <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">
             FAQ
           </a>
-<Button asChild variant="cta" size="sm" className="ml-4">
-  <a href="https://pay.cakto.com.br/332aogo_507140" target="_blank" rel="noopener noreferrer">
-    <Star className="w-4 h-4" />
-    Quero Meu Ebook Agora
-  </a>
-</Button>
+          <Button asChild variant="cta" size="sm" className="ml-4">
+            <a href="https://pay.cakto.com.br/332aogo_507140" target="_blank" rel="noopener noreferrer">
+              <Star className="w-4 h-4" />
+              Quero Meu Ebook Agora
+            </a>
+          </Button>
         </nav>
       </div>
     </header>
