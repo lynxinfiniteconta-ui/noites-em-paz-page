@@ -3,23 +3,23 @@ import { Button } from "@/components/ui/button";
 
 const GuaranteeSection = () => {
   return (
-    <section className="py-20 px-4 bg-background">
+    <section className="py-12 sm:py-20 px-4 bg-background">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center bg-gradient-soft rounded-3xl p-12 shadow-dreamy animate-fade-in-up">
-          <div className="w-20 h-20 bg-gradient-dreamy rounded-full flex items-center justify-center mx-auto mb-8">
-            <Shield className="w-10 h-10 text-white" />
+        <div className="text-center bg-gradient-soft rounded-3xl p-6 sm:p-12 shadow-dreamy animate-fade-in-up">
+          <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-dreamy rounded-full flex items-center justify-center mx-auto mb-6 sm:mb-8">
+            <Shield className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
           </div>
           
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-foreground mb-6">
+          <h2 className="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6">
             Garantia de 30 Dias
           </h2>
           
-          <p className="text-lg text-muted-foreground font-montserrat font-light mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground font-montserrat font-light mb-6 sm:mb-8 max-w-2xl mx-auto">
             Estamos tão confiantes no nosso método que oferecemos garantia total. 
             Se você não ver melhorias em 30 dias, devolvemos 100% do seu investimento.
           </p>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-10">
+          <div className="grid sm:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-10">
             <div className="text-center">
               <div className="w-16 h-16 bg-mint-green rounded-full flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="w-8 h-8 text-foreground" />

@@ -19,12 +19,12 @@ const Header = () => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'backdrop-blur-md bg-background/80 shadow-soft' : 'bg-transparent'
     }`}>
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 bg-gradient-dreamy rounded-full flex items-center justify-center">
-            <Moon className="w-5 h-5 text-white" />
+          <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-dreamy rounded-full flex items-center justify-center">
+            <Moon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
           </div>
-          <span className="font-playfair font-semibold text-xl text-foreground">
+          <span className="font-playfair font-semibold text-lg sm:text-xl text-foreground">
             Meu Filho Não Dorme
           </span>
         </div>
