@@ -40,10 +40,10 @@ const Header = () => {
             FAQ
           </a>
 <Button asChild variant="cta" size="sm" className="ml-4">
-  <Link href="https://pay.cakto.com.br/332aogo_507140" target="_blank">
+  <a href="https://pay.cakto.com.br/332aogo_507140" target="_blank" rel="noopener noreferrer">
     <Star className="w-4 h-4" />
     Quero Meu Ebook Agora
-  </Link>
+  </a>
 </Button>
         </nav>
       </div>
