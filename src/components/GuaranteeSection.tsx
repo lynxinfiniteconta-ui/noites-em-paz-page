@@ -1,4 +1,3 @@
-
 import { Shield, CheckCircle, Clock, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -58,11 +57,9 @@ const GuaranteeSection = () => {
             </div>
           </div>
           
-          <Button variant="cta" size="xl" className="group" asChild>
-            <a href="https://pay.cakto.com.br/332aogo_507140" target="_blank" rel="noopener noreferrer">
-              <Shield className="w-5 h-5 group-hover:animate-pulse" />
-              Quero Meu Ebook Agora
-            </a>
+          <Button variant="cta" size="xl" className="group">
+            <Shield className="w-5 h-5 group-hover:animate-pulse" />
+            Quero Meu Ebook Agora
           </Button>
         </div>
       </div>
