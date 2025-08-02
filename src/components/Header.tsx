@@ -39,10 +39,12 @@ const Header = () => {
           <a href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">
             FAQ
           </a>
-          <Button variant="cta" size="sm" className="ml-4">
-            <Star className="w-4 h-4" />
-            Quero Meu Ebook Agora
-          </Button>
+<Button asChild variant="cta" size="sm" className="ml-4">
+  <Link href="https://pay.cakto.com.br/332aogo_507140" target="_blank">
+    <Star className="w-4 h-4" />
+    Quero Meu Ebook Agora
+  </Link>
+</Button>
         </nav>
       </div>
     </header>
