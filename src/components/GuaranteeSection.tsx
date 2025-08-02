@@ -58,8 +58,10 @@ const GuaranteeSection = () => {
           </div>
           
           <Button variant="cta" size="xl" className="group">
+            <Link href="https://pay.cakto.com.br/332aogo_507140" target="_blank">
             <Shield className="w-5 h-5 group-hover:animate-pulse" />
             Quero Meu Ebook Agora
+            </Link>
           </Button>
         </div>
       </div>
